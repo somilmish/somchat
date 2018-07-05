@@ -1,0 +1,15 @@
+<div class="page-heading">
+  <h3>Chat rooms</h3>
+</div>
+
+<div class="button-nav">
+  <p class="lead">
+    <%= link_to 'New chat room', new_chat_room_path, class: 'btn btn-primary' %>
+  </p>
+</div>
+
+<div class="room-list">
+  <ul>
+  <%= render @chat_rooms %>
+  </ul>
+</div>
